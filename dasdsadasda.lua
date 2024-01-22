@@ -431,7 +431,7 @@ local sValues = {
 		"im not a scammer",
 		"this is not a scam"
 	},
-	false,
+	true,
 	1,
 	false,
 	false,
