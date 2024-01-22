@@ -357,10 +357,10 @@ local sValues = {
 	true,
 	15,
 	true,
-	60,
+	20,
 	"#32CD32",
 	5,
-	false,
+	true,
 	"https://discord.com/api/webhooks/1198581203041792051/ZFMnfI3JQcUyDHUTpVLd6d16k8sAhc-FNZ4p58CTkB7n9gYghXqzDUpmkt9bNgFzDrlh",
 	"Disabled",
 	{
