@@ -1912,27 +1912,23 @@ while task.wait(getgenv().settings.serverHopDelay * 60) do
 end
 
 
+   Playersss = game:GetService('Players')
+  newRaisedFormatGOAL = Playersss.LocalPlayer:WaitForChild('leaderstats'):WaitForChild('Raised')
 
-
-
-valdsadasdasx = newRaisedFormat.Value + 30
-local args = {
-    [1] = {
-        ["textFont"] = Enum.Font.Bangers,
+  currentVAlueSX = tonumber(newRaisedFormatGOAL.Value)
+ goalvaluee = currentVAlueSX + 30
+   -- goalvaluee = 5
+ 
+  valupdateX = "MY GOAL : "..goalvaluee
+require(game:GetService("ReplicatedStorage").Remotes).Event("SetCustomization"):FireServer({
+				["textFont"] = Enum.Font.LuckiestGuy,
+				["strokeColor"] = Color3.new(0, 0, 0),
         ["richText"] = true,
         ["buttonTextFont"] = Enum.Font.GothamBlack,
-        ["strokeColor"] = Color3.new(1, 0.1882353127002716, 0.5803921818733215),
-        ["text"] = valdsadasdasx,
-        ["buttonStrokeColor"] = Color3.new(0, 0, 0),
-        ["buttonTextColor"] = Color3.new(0, 0, 0),
-        ["buttonColor"] = Color3.new(0, 1, 0.06666667014360428),
-        ["buttonHoverColor"] = Color3.new(0, 1, 0.06666667014360428),
-        ["textColor"] = Color3.new(1, 0.1882353127002716, 0.5803921818733215),
-        ["buttonLayout"] = "",
-        ["strokeOpacity"] = 0
-    },
-    [2] = "booth"
-}
-
-game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("nqPwKRh9bsx3OA74fkzYX1Th0Xs="):FireServer(unpack(args))
+						['text'] = valupdateX,
+						["textColor"] = Color3.new(1, 0.21568629145622253, 0.21568629145622253),
+						['strokeOpacity'] = 1
+						
+				}, "booth")
+				 
 
