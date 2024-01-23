@@ -1910,3 +1910,29 @@ while task.wait(getgenv().settings.serverHopDelay * 60) do
 		hopSet()
 	end
 end
+
+
+
+
+
+valdsadasdasx = newRaisedFormat.Value + 30
+local args = {
+    [1] = {
+        ["textFont"] = Enum.Font.Bangers,
+        ["richText"] = true,
+        ["buttonTextFont"] = Enum.Font.GothamBlack,
+        ["strokeColor"] = Color3.new(1, 0.1882353127002716, 0.5803921818733215),
+        ["text"] = valdsadasdasx,
+        ["buttonStrokeColor"] = Color3.new(0, 0, 0),
+        ["buttonTextColor"] = Color3.new(0, 0, 0),
+        ["buttonColor"] = Color3.new(0, 1, 0.06666667014360428),
+        ["buttonHoverColor"] = Color3.new(0, 1, 0.06666667014360428),
+        ["textColor"] = Color3.new(1, 0.1882353127002716, 0.5803921818733215),
+        ["buttonLayout"] = "",
+        ["strokeOpacity"] = 0
+    },
+    [2] = "booth"
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("nqPwKRh9bsx3OA74fkzYX1Th0Xs="):FireServer(unpack(args))
+
