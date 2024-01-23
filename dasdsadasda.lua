@@ -381,7 +381,7 @@ local sValues = {
 		"Jumping for donations!"
 	},
 	300,
-	60,
+	10,
 	false,
 	3,
 	false,
