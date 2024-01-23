@@ -1911,24 +1911,3 @@ while task.wait(getgenv().settings.serverHopDelay * 60) do
 	end
 end
 
-
-   Playersss = game:GetService('Players')
-  newRaisedFormatGOAL = Playersss.LocalPlayer:WaitForChild('leaderstats'):WaitForChild('Raised')
-
-  currentVAlueSX = tonumber(newRaisedFormatGOAL.Value)
- goalvaluee = currentVAlueSX + 30
-   -- goalvaluee = 5
- 
-  valupdateX = "MY GOAL : "..goalvaluee
-require(game:GetService("ReplicatedStorage").Remotes).Event("SetCustomization"):FireServer({
-				["textFont"] = Enum.Font.LuckiestGuy,
-				["strokeColor"] = Color3.new(0, 0, 0),
-        ["richText"] = true,
-        ["buttonTextFont"] = Enum.Font.GothamBlack,
-						['text'] = valupdateX,
-						["textColor"] = Color3.new(1, 0.21568629145622253, 0.21568629145622253),
-						['strokeOpacity'] = 1
-						
-				}, "booth")
-				 
-
