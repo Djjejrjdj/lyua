@@ -375,7 +375,7 @@ local sValues = {
 	"your text here",
 	"#ffffff",
 	true,
-	true,
+	false,
 	{
 		"1R$ = 1 JUMP",
 		"Jumping for donations!"
