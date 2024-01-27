@@ -1,8 +1,4 @@
---[[
-	This property is protected.
-	You are not allowed to claim this as your own.
-	Removal of initial credits to the authors is prohibited.
-]]
+ 
 
 repeat
 	task.wait()
@@ -357,7 +353,7 @@ local sValues = {
 	true,
 	15,
 	true,
-	20,
+	13,
 	"#32CD32",
 	5,
 	true,
